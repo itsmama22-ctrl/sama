@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support & FAQ — SORYA GO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 12px;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            color: #94a3b8;
+        }
+
+        .card {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(148, 163, 184, 0.1);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            backdrop-filter: blur(10px);
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            color: #38bdf8;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .card p, .card li {
+            color: #cbd5e1;
+            font-size: 1rem;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, rgba(56, 189, 248, 0.15), rgba(129, 140, 248, 0.15));
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            margin-top: 16px;
+        }
+
+        .contact-box p {
+            color: #94a3b8;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .contact-box a {
+            color: #38bdf8;
+            font-size: 1.25rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .contact-box a:hover {
+            color: #7dd3fc;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .faq-item h3 {
+            color: #f1f5f9;
+            font-size: 1.05rem;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .faq-item p {
+            color: #94a3b8;
+            font-size: 0.95rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #64748b;
+            font-size: 0.875rem;
+        }
+
+        .footer a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.75rem;
+            }
+
+            .card {
+                padding: 24px 20px;
+            }
+
+            .container {
+                padding: 24px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Support & FAQ</h1>
+            <p>How can we help you today?</p>
+        </div>
+
+        <div class="card">
+            <h2>📧 Direct Support</h2>
+            <p style="margin-bottom: 8px;">We typically respond within 24–48 hours.</p>
+            <div class="contact-box">
+                <p>Email us at:</p>
+                <a href="mailto:contact.toolixy@gmail.com">contact.toolixy@gmail.com</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>❓ Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <h3>How do I report a bug or request a feature?</h3>
+                <p>Your feedback drives our innovation. Please email us with a description of your idea or the issue you encountered. Screenshots or videos are always helpful!</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I manage my premium subscription?</h3>
+                <p>All subscriptions are managed securely by Apple. You can view, change, or cancel them at any time via your iPhone Settings → [Your Name] → Subscriptions.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Why do some apps show advertisements?</h3>
+                <p>Ads allow us to offer free versions of our tools. For a pure, ad-free experience, many of our apps offer premium versions via In-App Purchase.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How is my location data used?</h3>
+                <p>Location is used only to provide location-based features. This processing happens locally on your device and is never shared with our servers.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 SORYA GO. All rights reserved.</p>
+            <p style="margin-top: 8px;">
+                <a href="privacy.html">Privacy Policy</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
