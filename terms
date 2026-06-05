@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service - BigScore</title>
+<style>
+body{font-family:-apple-system,sans-serif;max-width:700px;margin:40px auto;padding:0 20px;line-height:1.6;color:#333}
+h1{font-size:24px}h2{font-size:18px;margin-top:24px}
+</style>
+</head>
+<body>
+<h1>Terms of Service</h1>
+<p>Last updated: June 2026</p>
+<p>By using BigScore, you agree to these terms. If you do not agree, do not use the app.</p>
+<h2>Use of the App</h2>
+<p>BigScore provides football scores, news, and related content. You may use the app for personal, non-commercial purposes only.</p>
+<h2>Content</h2>
+<p>Match data and news are provided by third-party sources. We do not guarantee accuracy or availability.</p>
+<h2>Limitations</h2>
+<p>The app is provided "as is" without warranties. We are not liable for any damages arising from its use.</p>
+<h2>Changes</h2>
+<p>We may update these terms at any time. Continued use means you accept the changes.</p>
+<h2>Contact</h2>
+<p>Questions? Visit our <a href="support.html">support page</a>.</p>
+</body>
+</html>
